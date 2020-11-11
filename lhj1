@@ -1,0 +1,8 @@
+#include <stdio.h>
+void main()
+{
+	int arr[5]={60,65,70,40,68};
+	int i;
+	scanf("%d",&i);
+	printf("%c",arr[i]);
+	}
