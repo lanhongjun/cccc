@@ -1,0 +1,10 @@
+#include<stdio.h>
+int jun()
+{	return(12);
+}
+int hong()
+{ return (66);
+}
+void main()
+{	jun(); hong();
+}
