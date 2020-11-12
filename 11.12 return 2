@@ -1,0 +1,8 @@
+#include<stdio.h>
+int ok(int a,int b)
+{ return(a-b);
+}
+void main()
+{printf("%d",ok(600,80));
+
+}
