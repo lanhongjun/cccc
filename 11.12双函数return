@@ -6,5 +6,5 @@ int hong()
 { return (66);
 }
 void main()
-{	jun(); hong();
+{	printf("%d,%d"jun(), hong());
 }
