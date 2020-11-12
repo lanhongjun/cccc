@@ -1,0 +1,11 @@
+#include<stdio.h>
+void wei()
+{printf("晚安打工人\n");
+}
+void x()
+{printf("早安读书人");
+}
+void main()
+{
+wei();x();
+}
