@@ -1,0 +1,18 @@
+#include<stdio.h>
+void hong(){
+printf("干饭人干饭混给干饭都是人上人\n");}
+void wei()
+{printf("晚安打工人\n");
+}
+void x()
+{printf("早安读书人\n");
+}
+void main()
+{int i;
+	for(i=0;i<=24;i++)
+	if(i<=6){
+	x();}
+	
+	else if(i>=18){wei();}
+	else {hong();}
+}
