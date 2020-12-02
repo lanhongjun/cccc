@@ -33,7 +33,7 @@ else if(a>b && b>c)
 {
 printf("%d\n\n",c);
 printf("%d\n\n",b);
-printf("%d\n\n",b);
+printf("%d\n\n",a);
 }
 else
 { 
