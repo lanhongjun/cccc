@@ -5,7 +5,7 @@ void main()
 	int i,o=0,p=0;
 	for(i=0;;i++)
 {
-Sleep(1);
+Sleep(1000);
 printf("%02d\n",i);
 
 
