@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<string.h>
+#include<windows.h>
+void main ()
+{	
+
+	char s[50];
+	char s1[]="123456789";
+	char S[50];
+	char s2[]="987654321";
+	printf("请输入账号\n");
+	scanf("%s",&s);
+	printf("请输入密码");
+	
+	if(strcmp(s,s1)==0)
+	{
+	printf("账号对了，请输入密码");
+	scanf("%s",&S);
+	Sleep(1000);
+		if(strcmp(S,s2)==0)
+			{
+				printf("恭喜答对她是你的了");
+			}
+		else
+			{
+			printf("密码不对账号是她不配");
+			}
+	}
+	else
+	{
+	printf("哪里偷的号？");
+	}
+}
