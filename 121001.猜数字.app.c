@@ -10,14 +10,14 @@ void main()
 	scanf("%s",&a);
 	if(strcmp(a,a2)==0)
 	{
-	printf("你可以开始接下来的游戏了,注意你只有10次机会");
-	for(q=0;q<10;q++)
+	printf("你可以开始接下来的游戏了");
+	for(q=0;;q++)
 	{
 	scanf("%d",&i);
 	 if(i==o)
 		{
-			printf("恭喜回答正确,游戏结束");
-			q=10;
+			printf("恭喜回答正确,游戏结束");break;
+			
 		}
 	 else if(i>o)
 		{
